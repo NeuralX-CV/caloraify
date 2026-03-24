@@ -1,0 +1,14 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic==2.7.1
+Pillow==10.3.0
+torch==2.3.0
+transformers==4.51.3
+peft==0.15.2
+bitsandbytes==0.43.1
+accelerate==0.34.0
+num2words
+huggingface_hub
+safetensors
+requests>=2.31.0
