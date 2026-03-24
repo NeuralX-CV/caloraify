@@ -4,6 +4,11 @@
 
 ![CaLoRAify Banner](https://img.shields.io/badge/CaLoRAify-AI%20Nutrition%20Tracker-orange?style=for-the-badge&logo=telegram)
 
+[![Model](https://img.shields.io/badge/🤗%20Model-SmolVLM2--500M-blue?style=flat-square)](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Instruct)
+[![Adapter](https://img.shields.io/badge/🤗%20LoRA-caloraify--adapter-green?style=flat-square)](https://huggingface.co/Unnatrathi/caloraify-lora-adapter)
+[![Space](https://img.shields.io/badge/🤗%20Space-FastAPI%20Inference-yellow?style=flat-square)](https://huggingface.co/spaces/Unnatrathi/caloraify)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)](LICENSE)
 
 **Send a food photo → Get instant calories, macros & meal tracking**
 
