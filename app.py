@@ -17,7 +17,6 @@ import re
 import requests as req_lib
 
 # ── Lazy imports for heavy ML deps ──────────────────────────────────────────
-# Imported inside lifespan so the Space starts quickly and fails clearly
 _processor = None
 _model      = None
 
@@ -90,7 +89,7 @@ async def lifespan(app: FastAPI):
     _model.config.use_cache = True
     logger.info("Model ready ✅")
 
-    yield  # server runs here
+    yield  
 
     logger.info("Shutting down …")
 
